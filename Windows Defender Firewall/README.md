@@ -12,8 +12,8 @@ What I Did
 1. Firewall Configuration
 
 I opened Windows Defender Firewall with Advanced Security, explored its settings and created new firewall rules to control network traffic.
-![](cyber_advanced,png)
-![](cyber_new rule.png)
+![](https://github.com/UgonmaAjie/Cybersecurity/blob/24eb1f3528de5843f6c861d23465d87271427ded/Windows%20Defender%20Firewall/cyber_advanced.png)
+![](https://github.com/UgonmaAjie/Cybersecurity/blob/24eb1f3528de5843f6c861d23465d87271427ded/Windows%20Defender%20Firewall/cyber_new%20rule.png)
 2. Blocking Web Traffic Using Ports
 
 I created a firewall rule to block TCP ports 80 and 443, which are commonly used for HTTP and HTTPS web connections.
