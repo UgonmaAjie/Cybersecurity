@@ -17,9 +17,14 @@ I opened Windows Defender Firewall with Advanced Security, explored its settings
 2. Blocking Web Traffic Using Ports
 
 I created a firewall rule to block TCP ports 80 and 443, which are commonly used for HTTP and HTTPS web connections.
-
+![](https://github.com/UgonmaAjie/Cybersecurity/blob/865791cb32219377d9f5e3bcb7a2ae0e1b5cf92c/Windows%20Defender%20Firewall/cyber_portrule.png)
+---
+![](https://github.com/UgonmaAjie/Cybersecurity/blob/865791cb32219377d9f5e3bcb7a2ae0e1b5cf92c/Windows%20Defender%20Firewall/cyber_portno.png)
+---
 Before applying the rule, I could access Facebook normally. After enabling the rule, I could no longer access it.
-
+![](https://github.com/UgonmaAjie/Cybersecurity/blob/865791cb32219377d9f5e3bcb7a2ae0e1b5cf92c/Windows%20Defender%20Firewall/FB.png)
+---
+![](https://github.com/UgonmaAjie/Cybersecurity/blob/865791cb32219377d9f5e3bcb7a2ae0e1b5cf92c/Windows%20Defender%20Firewall/cyber_proof.png)
 I also learned that blocking these ports can affect access to other websites because many websites use the same ports.
 
 3. Blocking a Specific IP Address
