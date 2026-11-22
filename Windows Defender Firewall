@@ -1,10 +1,9 @@
-
-
 Windows Defender Firewall Configuration
 
 About This Project
 
-I carried out this project using Microsoft Defender Firewall on a Windows system to understand how a firewall helps protect a computer by controlling incoming and outgoing network connections.
+I carried out this project using Microsoft Defender Firewall on a Windows system to understand 
+how a firewall helps protect a computer by controlling incoming and outgoing network connections.
 
 My aim was to learn how to configure firewall settings, create rules, block specific network connections and test how those rules work.
 
