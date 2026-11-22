@@ -32,13 +32,24 @@ Before applying the rule, I could access Facebook normally. After enabling the r
 ---
 I also learned that blocking these ports can affect access to other websites because many websites use the same ports.
 
-### 3. Blocking a Specific IP Address
+## 3. Blocking a Specific IP Address
 
 For my second test, I used Command Prompt to ping facebook.com and identify an IP address associated with the domain.
+![](https://github.com/UgonmaAjie/Cybersecurity/blob/7083db03a10a1109cb66c16ed563b059c3fcf6f0/Windows%20Defender%20Firewall/cmd.png)
+---
+![](https://github.com/UgonmaAjie/Cybersecurity/blob/7083db03a10a1109cb66c16ed563b059c3fcf6f0/Windows%20Defender%20Firewall/cmd_port.png)
 
 I then opened Windows Defender Firewall, selected New Rule, chose Custom Rule and entered the specific IP address.
+![](https://github.com/UgonmaAjie/Cybersecurity/blob/7083db03a10a1109cb66c16ed563b059c3fcf6f0/Windows%20Defender%20Firewall/cmd_custom.png)
+---
+![](https://github.com/UgonmaAjie/Cybersecurity/blob/7083db03a10a1109cb66c16ed563b059c3fcf6f0/Windows%20Defender%20Firewall/cmd_portno.png)
+---
 
 After applying the rule, I could no longer access the targeted IP address, while other websites remained accessible.
+![](https://github.com/UgonmaAjie/Cybersecurity/blob/7083db03a10a1109cb66c16ed563b059c3fcf6f0/Windows%20Defender%20Firewall/cmd_fb.png)
+---
+![](https://github.com/UgonmaAjie/Cybersecurity/blob/7083db03a10a1109cb66c16ed563b059c3fcf6f0/Windows%20Defender%20Firewall/cmd_insta.png)
+---
 
 This helped me understand how firewall rules can be used to block traffic to a specific IP address rather than blocking web traffic generally.
 
